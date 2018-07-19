@@ -15,7 +15,7 @@ echo "**                                           **"
 echo "***********************************************"
 logsh "【Tools】" "请按任意键安装工具箱(Ctrl + C 退出)."
 read answer
-monlorurl="https://coding.net/u/monlor/p/Monlor-Tools/git/raw/master"
+monlorurl="https://raw.githubusercontent.com/KamiOrz/Monlor-Tools/master"
 model=$(cat /proc/xiaoqiang/model)
 ins_method="1"
 if [ "$model" == "R1D" -o "$model" == "R2D" -o "$model" == "R3D"  ]; then
